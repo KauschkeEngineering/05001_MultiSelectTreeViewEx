@@ -1,9 +1,0 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-    <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="/TreeViewEx;component/themes/EditTextBox.xaml" />
-        <ResourceDictionary Source="/TreeViewEx;component/themes/TreeViewEx.xaml" />
-        <ResourceDictionary Source="/TreeViewEx;component/themes/SystemColors.xaml" />
-    </ResourceDictionary.MergedDictionaries>
-</ResourceDictionary>

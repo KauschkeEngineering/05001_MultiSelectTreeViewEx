@@ -7,8 +7,6 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using DragNDropSample.Model;
-using tainicom.TreeViewEx;
-using tainicom.TreeViewEx.DragNDrop;
 
 namespace DragNDropSample.ViewModel
 {
@@ -89,7 +87,7 @@ namespace DragNDropSample.ViewModel
         {
             CanDragParameters dragParameters = (CanDragParameters)parameter;
 
-            foreach (TreeViewExItem tvei in dragParameters.Items)
+            foreach (MultiSelectTreeViewExItem tvei in dragParameters.Items)
             {
                 Node node = tvei.DataContext as Node;
                 // if one item is not draggable, nothing can be dragged
@@ -113,7 +111,7 @@ namespace DragNDropSample.ViewModel
         private bool CanExecuteDrop(object parameter)
         {
             DropParameters dropParameters = (DropParameters)parameter;
-            TreeViewExItem tvei = dropParameters.DropToItem;
+            MultiSelectTreeViewExItem tvei = dropParameters.DropToItem;
             IDataObject dataObject = dropParameters.Data as IDataObject;
 
             if (!dataObject.GetDataPresent("NewNode") && !dataObject.GetDataPresent("Nodes"))
@@ -133,7 +131,7 @@ namespace DragNDropSample.ViewModel
         private void ExecuteDrop(object parameter)
         {
             DropParameters dropParameters = (DropParameters)parameter;
-            TreeViewExItem tvei = dropParameters.DropToItem;
+            MultiSelectTreeViewExItem tvei = dropParameters.DropToItem;
             IDataObject dataObject = dropParameters.Data as IDataObject;
             int index = dropParameters.Index;
             Node node = (tvei == null)?null:tvei.DataContext as Node;

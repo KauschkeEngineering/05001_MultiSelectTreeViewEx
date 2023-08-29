@@ -115,9 +115,9 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TreeViewEx\TreeViewEx.csproj">
-      <Project>{2854814F-EA3C-41D4-AA94-460C4694F430}</Project>
-      <Name>TreeViewEx</Name>
+    <ProjectReference Include="..\..\MultiSelectTreeViewEx\MultiSelectTreeViewEx.csproj">
+      <Project>{3E4479A3-EBCA-4FB3-8C44-A57C39ABAF62}</Project>
+      <Name>MultiSelectTreeViewEx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

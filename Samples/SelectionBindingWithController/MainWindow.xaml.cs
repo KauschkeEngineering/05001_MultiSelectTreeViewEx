@@ -11,7 +11,6 @@
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Input;
-    using tainicom.TreeViewEx;
 
     #endregion
 
@@ -67,7 +66,7 @@
         
         void treeViewEx_OnSelecting(object sender, SelectionChangedCancelEventArgs e)
         {
-            TreeViewEx treeViewEx = (TreeViewEx)sender;
+            MultiSelectTreeViewEx treeViewEx = (MultiSelectTreeViewEx)sender;
             CommandController controller = viewModel.Controller;
 
             e.Cancel = true;
