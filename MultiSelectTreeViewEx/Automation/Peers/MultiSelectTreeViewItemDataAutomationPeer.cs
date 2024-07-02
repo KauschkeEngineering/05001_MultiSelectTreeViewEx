@@ -1,4 +1,13 @@
-﻿using System.Windows.Automation.Provider;
+﻿// *********************************************************************************************************
+// *
+// *  Author:       Maximilian Burkhardt
+// *  Disclaimer:   Copyright (c) 2023 - Kauschke Engineering Systems GmbH
+// * 				        All rights reserved - Unauthorized deobfuscation and making copies of this file,
+// * 				        via any medium is strictly prohibited.
+// *
+// *********************************************************************************************************
+
+using System.Windows.Automation.Provider;
 using System.Windows.Controls;
 using System.Windows.Controls.Automation.Peers;
 

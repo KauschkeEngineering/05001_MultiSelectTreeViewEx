@@ -1,11 +1,11 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="BorderSelectionLogic.cs" company="Slompf Industries">
-//   Copyright (c) Slompf Industries 2006 - 2012
-// </copyright>
-// <summary>
-//   Defines the BorderSelectionLogic type.
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
+﻿// *********************************************************************************************************
+// *
+// *  Author:       Maximilian Burkhardt
+// *  Disclaimer:   Copyright (c) 2023 - Kauschke Engineering Systems GmbH
+// * 				        All rights reserved - Unauthorized deobfuscation and making copies of this file,
+// * 				        via any medium is strictly prohibited.
+// *
+// *********************************************************************************************************
 
 namespace System.Windows.Controls
 {
@@ -38,10 +38,6 @@ namespace System.Windows.Controls
         private Point startPoint;
         private DateTime lastScrollTime;
         private HashSet<object> initialSelection;
-
-        private Point? selectPosition;
-        private MouseButton dragButton;
-        bool beginSelect = false;
 
         #endregion
 
