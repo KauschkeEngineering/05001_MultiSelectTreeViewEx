@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Library for a multi select TreeView and virtualization")]
 [assembly: AssemblyCompany("Kauschke Engineering Systems GmbH")]
 [assembly: AssemblyProduct("MultiSelectTreeViewEx")]
-[assembly: AssemblyCopyright("Copyright © 2023 - Kauschke Engineering Systems GmbH")]
+[assembly: AssemblyCopyright("Copyright © 2024 - Kauschke Engineering Systems GmbH")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -49,5 +49,5 @@ using System.Runtime.InteropServices;
 // Sie können alle Werte angeben oder Standardwerte für die Build- und Revisionsnummern verwenden,
 // indem Sie "*" wie unten gezeigt eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
+[assembly: AssemblyVersion("0.2.0.0")]
+[assembly: AssemblyFileVersion("0.2.0.0")]
