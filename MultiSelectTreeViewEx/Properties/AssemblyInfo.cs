@@ -1,4 +1,13 @@
-﻿using System.Runtime.CompilerServices;
+﻿// *********************************************************************************************************
+// *
+// *  Author:       Maximilian Burkhardt
+// *  Disclaimer:   Copyright (c) 2024 - Kauschke Engineering Systems GmbH
+// * 				        All rights reserved - Unauthorized deobfuscation and making copies of this file,
+// * 				        via any medium is strictly prohibited.
+// *
+// *********************************************************************************************************
+
+using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Reflection;
 using System.Runtime.InteropServices;
